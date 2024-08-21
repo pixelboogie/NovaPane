@@ -6,13 +6,18 @@ import Card from "./components/Card"
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
         <Navbar />
-        <Card />
+        <Card 
+          img="katie-zaferes.png"
+          rating="5.0"
+          reviewCount={6}
+          country="USA"
+          title="Life Lessons with Katie Zaferes"
+          price={136}
+        />
        </div>
     </>
   )
