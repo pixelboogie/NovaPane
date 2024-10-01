@@ -37,7 +37,8 @@ section {
 
 .hero--photo {
     max-width: 400px;
-    align-self: center;
+    /* align-self: center; */
+    margin-left: 7%;
 }
 
 .hero--header {
