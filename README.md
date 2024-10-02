@@ -1,34 +1,37 @@
-# React + Vite
+# NovaPane: Interactive Experience Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+NovaPane is an interactive platform inspired by Airbnb Experiences, designed to showcase various online activities around the world. Built with React.js, this application uses advanced features such as props, destructuring, and array mapping to deliver a dynamic and engaging user interface.
 
-
-To get started:
-
-Copy the parent directory of this file.
-
-Open Terminal (not powershell, etc.)
-
-Shorten the command prompt
-prompt $g
-
-Launch the server
-npm run dev
-
-Open a browser to the localhost url provided in terminal.
+## Features
+- **Interactive Listings**: Users can browse and interact with a variety of listings for online activities.
+- **Dynamic Data Rendering**:Leveraging React's array.map() functionality, the app dynamically renders activity details from a data array.
 
 
-  Shortcuts
-  press r + enter to restart the server
-  press u + enter to show server url   
-  press o + enter to open in browser   
-  press c + enter to clear console     
-  press q + enter to quit
+## Technologies Used
+- React.js
+- Vitejs
+- HTML, CSS
 
+## Installation
+To set up this project locally, follow these steps:
 
--------------------------
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/novapane.git
 
-Currently, two official plugins are available:
+2. **Install Dependencies:**
+    Install the back-end dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+        npm install
+
+3. **Run the Application:**
+
+    Start the development server:
+
+        npm run dev
+
+5. **Access the Application:**
+
+    This runs the app in the development mode. Open your web browser and navigate to the URL provided in console.
+
